@@ -187,7 +187,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -464,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "keyboardR.kicad_pro",
+    "filename": "keyboard.kicad_pro",
     "version": 3
   },
   "net_settings": {

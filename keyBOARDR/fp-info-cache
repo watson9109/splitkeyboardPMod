@@ -1,4 +1,4 @@
-24762135823354976
+24767370296061345
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99512,6 +99512,13 @@ Varistor VF
 2
 2
 footprint
+AE-RP2040
+
+
+0
+36
+36
+footprint
 JT8P-3.2T- -1-16Y
 
 
@@ -99526,9 +99533,9 @@ JT8P-3.2T-B10K-1-16Y
 0
 0
 footprint
-MJ-4PP-9
-
-
+Jack_3.5mm_KoreanHropartsElec_PJ-320D-4A_Horizontal
+Korean Hroparts Elec PJ-320D-4A (https://datasheet.lcsc.com/lcsc/1810121716_Korean-Hroparts-Elec-PJ-320D-4A_C95562.pdf)
+smt female jack horizontal
 0
 4
 4
@@ -99575,6 +99582,20 @@ usb usb-c 2.0 pd
 20
 17
 footprint
+XIAO-ESP32C6-DIP
+
+
+0
+28
+14
+footprint
+XIAO-ESP32C6-SMD
+
+
+0
+24
+24
+footprint
 XTAL_ABLS-12.000MHZ-B4-T
 
 
@@ -99593,5 +99614,5 @@ footprint
 
 
 0
-0
-0
+4
+4

@@ -664,6 +664,17 @@
 					(type none)
 				)
 			)
+			(rectangle
+				(start 12.7 -21.59)
+				(end 10.16 21.59)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -16.51 20.32 0)
 				(length 3.81)
