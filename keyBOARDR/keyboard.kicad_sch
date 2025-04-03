@@ -5207,6 +5207,28 @@
 			)
 		)
 	)
+	(global_label "VSYS"
+		(shape input)
+		(at 219.71 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56e14fb5-d68d-4a17-bcd2-39810cecde92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.1286 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO26"
 		(shape input)
 		(at 100.33 67.31 0)
@@ -6384,71 +6406,6 @@
 			(project "keyboard"
 				(path "/87cb8758-71c2-4694-a9fe-0351a50a6e70"
 					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 219.71 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bc88ae5-1a6b-44f5-a895-7c422844da0a")
-		(property "Reference" "#PWR034"
-			(at 219.71 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 219.456 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 219.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "041bbde9-025d-42b1-a041-3d110ef78c86")
-		)
-		(instances
-			(project "keyboard"
-				(path "/87cb8758-71c2-4694-a9fe-0351a50a6e70"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7970,6 +7927,72 @@
 			(project "keyboard"
 				(path "/87cb8758-71c2-4694-a9fe-0351a50a6e70"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "702c7284-ddd1-49ad-9cfd-f27945d3b074")
+		(property "Reference" "#PWR034"
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "256eda57-1baa-4070-8bbd-36fe44b8a2bf")
+		)
+		(instances
+			(project "keyboard"
+				(path "/87cb8758-71c2-4694-a9fe-0351a50a6e70"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
